@@ -14,22 +14,14 @@ game:GetService("Players").LocalPlayer.Backpack.MoriJin.Event:FireServer(unpack(
                 _G.loop = true
 
                while _G.loop do
-             local args = {
+      local args = {
     [1] = "Combo3"
 }
 
 game:GetService("Players").LocalPlayer.Backpack.MoriJin.Combat:FireServer(unpack(args))
-
-    
-              wait(0.3)
-              end
+ wait(0.3)
+ end
                              
-                end;
-end;
-                until v.Character.Humanoid.Health <= 0 or not getgenv().Autofarm
-            end;
-        end;
-    end);
-end;
+                
 
 
