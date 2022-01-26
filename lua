@@ -14,8 +14,8 @@ pcall(function()
              game:GetService("ReplicatedStorage").Remotes.Equip:FireServer(getgenv().Character) end;
                
             if getgenv().AntiJulian then wait(.1)
-            for i,v2 in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do game:GetService("Players").LocalPlayer.Backpack[v2.Name].Combat:FireServer("Combo1") game:GetService("Players").LocalPlayer.Backpack[v2.Name].Combat:FireServer("Combo5) end; end;
-            until v.Character.Humanoid.Health <= 0 or not getgenv().Jaffarm
+            for i,v2 in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do game:GetService("Players").LocalPlayer.Backpack[v2.Name].Combat:FireServer("Combo1");
+            wait(0.2)
             end;
         end;
     end);
